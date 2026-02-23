@@ -45,8 +45,11 @@ export default function RootLayout({ children }) {
                 <main style={{ marginTop: 'var(--nav-height)' }}>
                     {children}
                 </main>
-                <footer style={{ padding: '50px 20px', textAlign: 'center', borderTop: '1px solid var(--card-border)', marginTop: '50px' }}>
-                    <p style={{ color: 'var(--text-muted)' }}>&copy; {new Date().getFullYear()} Korex. All rights reserved.</p>
+                <footer style={{ padding: '80px 20px', textAlign: 'center', borderTop: '1px solid var(--card-border)', marginTop: '100px' }}>
+                    <p style={{ color: 'var(--text-muted)', marginBottom: '10px' }}>&copy; {new Date().getFullYear()} Korex. All rights reserved.</p>
+                    <p style={{ color: 'var(--text-muted)', fontSize: '14px', maxWidth: '400px', margin: '0 auto' }}>
+                        RDL Colony, Near Jain Mandir GIDC Estate, Ankleswhar, Gujarat, 393002, India
+                    </p>
                 </footer>
             </body>
         </html>
